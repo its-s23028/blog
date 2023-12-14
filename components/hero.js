@@ -1,4 +1,4 @@
-export default function Hero ({ title, subtitle }) {
+export default function Hero ({ title, subtitle, imageOn = false }) {
   return (
     <div>
       <h1>{title}</h1>
