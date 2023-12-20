@@ -1,6 +1,10 @@
+import Container from 'components/container'
 import Hero from 'components/hero'
 
 export default function About () {
-  const props1 = { title: 'About', subtitle: 'About development activities' }
-  return <Hero {...props1} />
+  return (
+    <Container>
+      <Hero title='About' subtitle='About development activities' />
+    </Container>
+  )
 }
