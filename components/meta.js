@@ -10,7 +10,7 @@ const {
   siteIcon
 } = siteMeta
 export default function Meta ({ pageTitle }) {
-  const title = pageTitle ? '${pageTitle} | ${siteTitle}' : siteTitle
+  const title = pageTitle ? `${pageTitle} | ${siteTitle}` : siteTitle
   return (
     <Head>
       <title>{title}</title>
